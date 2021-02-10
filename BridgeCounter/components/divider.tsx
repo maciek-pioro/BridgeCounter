@@ -1,12 +1,16 @@
 import React from 'react';
 import { StyleSheet, Text, View } from 'react-native';
 
-export const Divider = () => (
+interface Props {
+  text: string
+}
+
+export const Divider = ({text} : Props) => (
   <View style={styles.container}>
     <View style={styles.dividerPart} />
     <View>
       <Text style={styles.text}>
-        Albo
+        {text}
       </Text>
     </View>
     <View style={styles.dividerPart} />

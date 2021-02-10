@@ -11,7 +11,7 @@ export default function App() {
           Count points in one game
         </Text>
       </View>
-      <Divider/>
+      <Divider text='albo'/>
       <View style={styles.subContainer}>
         <Text>
           Track multiple games
@@ -36,7 +36,7 @@ const styles = StyleSheet.create({
     flexGrow: 0.1
   },
   subContainer: {
-    flexShrink: 0,
+    flexShrink: 0,    
     flexGrow: 1,
     width: '100%',
     padding: 20
