@@ -1,7 +1,7 @@
 import { StatusBar } from 'expo-status-bar';
 import React from 'react';
 import { StyleSheet, Text, View } from 'react-native';
-import { Divider } from './components/divider'
+import { Divider } from './src/components/divider'
 
 export default function App() {
   return (
